@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.2.0",
+    "inquirer": "^9.2.12",
+    "svgdom": "^0.1.19"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.8",
+    "babel-jest": "^29.7.0",
+    "esm": "^3.2.25",
+    "jest": "^29.7.0",
+    "just": "^0.1.8"
+  },
+  "scripts": {
+    "start": "node main-module.js",
+    "test": "jest"
+  }
+}
